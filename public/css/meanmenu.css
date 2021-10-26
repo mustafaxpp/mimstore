@@ -1,0 +1,444 @@
+/*--------------------------------------------------------------------- File Name: meanmenu.css ---------------------------------------------------------------------*/
+
+a.meanmenu-reveal {
+     display: none;
+}
+
+.mean-container .mean-bar {
+     background: #308409;
+     float: left;
+     min-height: 40px;
+     padding: 5px 0;
+     position: relative;
+     width: 100%;
+     z-index: 999;
+}
+
+.mean-container a.meanmenu-reveal {
+     color: #fff;
+     cursor: pointer;
+     display: block;
+     font-family: 'Roboto', sans-serif;
+     font-weight: 400;
+     height: 22px;
+     line-height: 22px;
+     position: absolute;
+     right: 12px;
+     text-decoration: none;
+     top: 12px;
+     width: 26px;
+}
+
+.mean-container a.meanmenu-reveal span {
+     background: #ffffff none repeat scroll 0 0;
+     border-radius: 0;
+     display: block;
+     height: 4px;
+     margin-top: 3px;
+     width: auto;
+}
+
+.mean-container a.meanmenu-reveal span:first-child {
+     margin: 0
+}
+
+.mean-container .mean-nav {
+     background: #ffffff none repeat scroll 0 0;
+     float: left;
+     margin-top: 44px;
+     width: 100%;
+}
+
+.mean-container .mean-nav ul {
+     padding: 0;
+     margin: 0;
+     width: 100%;
+     list-style-type: none;
+}
+
+.mean-container .mean-nav ul li {
+     position: relative;
+     float: left;
+     width: 100%;
+}
+
+.mean-container .mean-nav ul li a {
+     border-bottom: 1px solid #ccc;
+     color: #383838;
+     display: block;
+     float: left;
+     font-size: 12px;
+     font-weight: 500;
+     margin: 0;
+     padding: 1em 5%;
+     text-align: left;
+     text-decoration: none;
+     text-transform: uppercase;
+     width: 90%;
+}
+
+.mean-container .mean-nav ul li a:hover {
+     color: #38c8a8;
+}
+
+.mean-container .mean-nav ul li li a {
+     width: 80%;
+     padding: 1em 10%;
+     border-top: 1px solid #ccc;
+     border-top: 1px solid #ccc;
+     opacity: 1;
+     filter: alpha(opacity=1);
+     text-shadow: none !important;
+     visibility: visible;
+}
+
+.mean-container .mean-nav ul li.mean-last a {
+     border-bottom: 1px solid #cccccc;
+     margin-bottom: 0;
+}
+
+.mean-container .mean-nav ul li li li a {
+     width: 70%;
+     padding: 1em 15%;
+}
+
+.mean-container .mean-nav ul li li li li a {
+     width: 60%;
+     padding: 1em 20%;
+}
+
+.mean-container .mean-nav ul li li li li li a {
+     width: 50%;
+     padding: 1em 25%;
+}
+
+.mean-container .mean-nav ul li a:hover {
+     ` background: #252525;
+     background: rgba(255, 255, 255, 0.1);
+}
+
+.mean-container .mean-nav ul li a.mean-expand {
+     background: rgba(255, 255, 255, 0.1) none repeat scroll 0 0;
+     border: medium none;
+     font-weight: 400;
+     height: 22px;
+     line-height: 22px;
+     margin-top: 1px;
+     padding: 12px 16px;
+     position: absolute;
+     right: 0;
+     text-align: center;
+     top: -1px;
+     width: 17px;
+     z-index: 2;
+     font-size: 18px !important;
+}
+
+.mean-container .mean-nav ul li a.mean-expand:hover {
+     background: rgba(0, 0, 0, 0.9) none repeat scroll 0 0;
+     color: #ffffff;
+}
+
+.mean-container .mean-push {
+     float: left;
+     width: 100%;
+     padding: 0;
+     margin: 0;
+     clear: both;
+}
+
+.mean-nav .wrapper {
+     width: 100%;
+     padding: 0;
+     margin: 0;
+}
+
+.mean-container .mean-bar,
+.mean-container .mean-bar * {
+     -webkit-box-sizing: content-box;
+     -moz-box-sizing: content-box;
+     box-sizing: content-box;
+}
+
+.mean-remove {
+     display: none !important;
+}
+
+.mean-nav span {
+     display: none;
+}
+
+/* .mean-container .mean-nav ul li a.mean-expand:hover,
+.mean-container .mean-nav ul li a.mean-expand:focus {
+     background: #38c8a8;
+     color: #ffffff;
+} */
+
+.mean-container .mean-nav ul li a:hover {
+     color: #308409;
+}
+
+
+
+
+
+
+
+
+
+
+/*login*/
+
+:root {
+    --input-padding-x: 1.5rem;
+    --input-padding-y: .75rem;
+  }
+
+.card-signin {
+    border: 0;
+    border-radius: 1rem;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+    border: 0;
+  }
+
+  .card-signin .card-title {
+    margin-bottom: 2rem;
+    font-weight: 300;
+    font-size: 1.5rem;
+  }
+
+  .card-signin .card-body {
+    padding: 2rem;
+  }
+
+  .form-signin {
+    width: 100%;
+  }
+
+  .form-signin .btn {
+    font-size: 80%;
+    border-radius: 5rem;
+    letter-spacing: .1rem;
+    font-weight: bold;
+    padding: 1rem;
+    transition: all 0.2s;
+  }
+
+  .form-label-group {
+    position: relative;
+    margin-bottom: 1rem;
+  }
+
+  .form-label-group input {
+    height: auto;
+    border-radius: 2rem;
+  }
+
+  .form-label-group>input,
+  .form-label-group>label {
+    padding: var(--input-padding-y) var(--input-padding-x);
+  }
+
+  .form-label-group>label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    margin-bottom: 0;
+    /* Override default `<label>` margin */
+    line-height: 1.5;
+    color: #495057;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    transition: all .1s ease-in-out;
+  }
+
+  .form-label-group input::-webkit-input-placeholder {
+    color: transparent;
+  }
+
+  .form-label-group input:-ms-input-placeholder {
+    color: transparent;
+  }
+
+  .form-label-group input::-ms-input-placeholder {
+    color: transparent;
+  }
+
+  .form-label-group input::-moz-placeholder {
+    color: transparent;
+  }
+
+  .form-label-group input::placeholder {
+    color: transparent;
+  }
+
+  .form-label-group input:not(:placeholder-shown) {
+    padding-top: calc(var(--input-padding-y) + var(--input-padding-y) * (2 / 3));
+    padding-bottom: calc(var(--input-padding-y) / 3);
+  }
+
+  .form-label-group input:not(:placeholder-shown)~label {
+    padding-top: calc(var(--input-padding-y) / 3);
+    padding-bottom: calc(var(--input-padding-y) / 3);
+    font-size: 12px;
+    color: #777;
+  }
+
+  .btn-google {
+    color: white;
+    background-color: #ea4335;
+  }
+
+  .btn-facebook {
+    color: white;
+    background-color: #3b5998;
+  }
+
+  /* Fallback for Edge
+  -------------------------------------------------- */
+
+  @supports (-ms-ime-align: auto) {
+    .form-label-group>label {
+      display: none;
+    }
+    .form-label-group input::-ms-input-placeholder {
+      color: #777;
+    }
+  }
+
+  /* Fallback for IE
+  -------------------------------------------------- */
+
+  @media all and (-ms-high-contrast: none),
+  (-ms-high-contrast: active) {
+    .form-label-group>label {
+      display: none;
+    }
+    .form-label-group input:-ms-input-placeholder {
+      color: #777;
+    }
+  }
+
+
+
+/*register*/
+
+:root {
+    --input-padding-x: 1.5rem;
+    --input-padding-y: .75rem;
+  }
+
+
+  .card-register {
+    border: 0;
+    border-radius: 1rem;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+
+  .card-register .card-title {
+    margin-bottom: 2rem;
+    font-weight: 300;
+    font-size: 1.5rem;
+  }
+
+  .card-register {
+    margin-left: 150px;
+    width: 65%;
+    /* Link to your background image using in the property below! */
+    /* background: scroll center url('https://source.unsplash.com/WEQbe2jBg40/414x512'); */
+    background-size: cover;
+  }
+
+  .card-register .card-body {
+    padding: 2rem;
+  }
+
+  .form-register {
+    width: 100%;
+  }
+
+  .form-register .btn {
+    font-size: 80%;
+    border-radius: 5rem;
+    letter-spacing: .1rem;
+    font-weight: bold;
+    padding: 1rem;
+    transition: all 0.2s;
+  }
+
+  .form-label-group {
+    position: relative;
+    margin-bottom: 1rem;
+  }
+
+  .form-label-group input {
+    height: auto;
+    border-radius: 2rem;
+  }
+
+  .form-label-group>input,
+  .form-label-group>label {
+    padding: var(--input-padding-y) var(--input-padding-x);
+  }
+
+  .form-label-group>label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    margin-bottom: 0;
+    /* Override default `<label>` margin */
+    line-height: 1.5;
+    color: #495057;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    transition: all .1s ease-in-out;
+  }
+
+  .form-label-group input::-webkit-input-placeholder {
+    color: transparent;
+  }
+
+  .form-label-group input:-ms-input-placeholder {
+    color: transparent;
+  }
+
+  .form-label-group input::-ms-input-placeholder {
+    color: transparent;
+  }
+
+  .form-label-group input::-moz-placeholder {
+    color: transparent;
+  }
+
+  .form-label-group input::placeholder {
+    color: transparent;
+  }
+
+  .form-label-group input:not(:placeholder-shown) {
+    padding-top: calc(var(--input-padding-y) + var(--input-padding-y) * (2 / 3));
+    padding-bottom: calc(var(--input-padding-y) / 3);
+  }
+
+  .form-label-group input:not(:placeholder-shown)~label {
+    padding-top: calc(var(--input-padding-y) / 3);
+    padding-bottom: calc(var(--input-padding-y) / 3);
+    font-size: 12px;
+    color: #777;
+  }
+
+  .btn-google {
+    color: white;
+    background-color: #ea4335;
+  }
+
+  .btn-facebook {
+    color: white;
+    background-color: #3b5998;
+  }
+
+
